@@ -589,6 +589,19 @@ PurpleConversation* convLookupFromChat(AIChat *chat, id adiumAccount)
 												 valueUTF8String);
 						}
 					}
+					
+					if (chat.lastMessageDate) {
+
+						NSString *historySince = [[NSDate dateWithTimeInterval:1.0f sinceDate:chat.lastMessageDate]
+                                                  descriptionWithCalendarFormat:@"%Y-%m-%dT%H:%M:%SZ"
+                                                                       timeZone:[NSTimeZone timeZoneWithAbbreviation:@"UTC"]
+                                                                         locale:nil];
+
+						g_hash_table_replace(components, g_strdup("history_since"), g_strdup([historySince UTF8String]));
+					} else {
+						AILogWithSignature(@"No last message found for history on %@", chat);
+					}
+
 
 					//In debug mode, verify we didn't miss any required values
 					if (AIDebugLoggingIsEnabled()) {
