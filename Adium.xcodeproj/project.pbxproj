@@ -1468,7 +1468,6 @@
 		811036260CDE8C2100EC6038 /* adiumPurpleCertificateTrustWarning.m in Sources */ = {isa = PBXBuildFile; fileRef = 811036240CDE8C2100EC6038 /* adiumPurpleCertificateTrustWarning.m */; };
 		8110362C0CDE8F5800EC6038 /* AIPurpleCertificateTrustWarningAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 8110362A0CDE8F5800EC6038 /* AIPurpleCertificateTrustWarningAlert.h */; };
 		8110362D0CDE8F5800EC6038 /* AIPurpleCertificateTrustWarningAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8110362B0CDE8F5800EC6038 /* AIPurpleCertificateTrustWarningAlert.m */; };
-		8163F99C0B318824002005EE /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638392F609D4D67A0067B9B7 /* Sparkle.framework */; };
 		8173C5760C4C3DB800C9E64E /* downloadprogress.png in Resources */ = {isa = PBXBuildFile; fileRef = 8173C5750C4C3DB800C9E64E /* downloadprogress.png */; };
 		8181EEBE0C30673E00E802F7 /* AMPurpleSearchResultsWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8181EEBD0C30673E00E802F7 /* AMPurpleSearchResultsWindow.nib */; };
 		8181EEC30C3067B500E802F7 /* AMPurpleSearchResultsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8181EEC10C3067B500E802F7 /* AMPurpleSearchResultsController.h */; };
@@ -1489,7 +1488,6 @@
 		81DAED520C26F4F700780E4C /* AMPurpleJabberServiceDiscoveryBrowsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DAED500C26F4F700780E4C /* AMPurpleJabberServiceDiscoveryBrowsing.h */; };
 		81DAED530C26F4F700780E4C /* AMPurpleJabberServiceDiscoveryBrowsing.m in Sources */ = {isa = PBXBuildFile; fileRef = 81DAED510C26F4F700780E4C /* AMPurpleJabberServiceDiscoveryBrowsing.m */; };
 		81E45D760C15BFF800B7381B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E839050583207E00F2AADB /* SystemConfiguration.framework */; };
-		9722ABC613257D5800CAB486 /* ContactListWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9722ABC513257D5800CAB486 /* ContactListWindow.xib */; };
 		9722ABC813257D7F00CAB486 /* ContactListWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9722ABC713257D7F00CAB486 /* ContactListWindow.xib */; };
 		97AF5CDB13191DE200550C41 /* AIContactListUserPictureMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AF5CDA13191DE200550C41 /* AIContactListUserPictureMenuController.m */; };
 		97AF5CE713191E4800550C41 /* AIImageCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 97AF5CE213191E2800550C41 /* AIImageCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -4734,7 +4732,6 @@
 		81DAE8710C261E8A00780E4C /* AMPurpleTuneTooltip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMPurpleTuneTooltip.m; path = "Plugins/Purple Service/AMPurpleTuneTooltip.m"; sourceTree = "<group>"; };
 		81DAED500C26F4F700780E4C /* AMPurpleJabberServiceDiscoveryBrowsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMPurpleJabberServiceDiscoveryBrowsing.h; path = "Plugins/Purple Service/AMPurpleJabberServiceDiscoveryBrowsing.h"; sourceTree = "<group>"; };
 		81DAED510C26F4F700780E4C /* AMPurpleJabberServiceDiscoveryBrowsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMPurpleJabberServiceDiscoveryBrowsing.m; path = "Plugins/Purple Service/AMPurpleJabberServiceDiscoveryBrowsing.m"; sourceTree = "<group>"; };
-		9722ABC513257D5800CAB486 /* ContactListWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ContactListWindow.xib; path = Resources/ContactListWindow.xib; sourceTree = "<group>"; };
 		9722ABC713257D7F00CAB486 /* ContactListWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ContactListWindow.xib; path = Resources/ContactListWindow.xib; sourceTree = "<group>"; };
 		97AF5CD913191DE200550C41 /* AIContactListUserPictureMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AIContactListUserPictureMenuController.h; path = Source/AIContactListUserPictureMenuController.h; sourceTree = "<group>"; };
 		97AF5CDA13191DE200550C41 /* AIContactListUserPictureMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AIContactListUserPictureMenuController.m; path = Source/AIContactListUserPictureMenuController.m; sourceTree = "<group>"; };
@@ -4950,7 +4947,6 @@
 				638392F809D4D67A0067B9B7 /* Sparkle.framework in Frameworks */,
 				9E1E1DFD0A96741500E16DFC /* LMX.framework in Frameworks */,
 				377EC8940AE9525B00CB7BDF /* PSMTabBarControl.framework in Frameworks */,
-				8163F99C0B318824002005EE /* Sparkle.framework in Frameworks */,
 				11AA1EFA0BCAE9C3003DDA66 /* Quartz.framework in Frameworks */,
 				340C1ABF0BD58FAB00D09235 /* Security.framework in Frameworks */,
 				31E0CD810C5EEF5200271DB1 /* CoreAudio.framework in Frameworks */,
@@ -5267,7 +5263,6 @@
 				29B97323FDCFA39411CA2CEA /* Linked Frameworks */,
 				63C7E0280FAF9B7D00B310AC /* xcconfigs */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				9722ABC513257D5800CAB486 /* ContactListWindow.xib */,
 			);
 			name = CocAIMe2;
 			sourceTree = "<group>";
@@ -10022,7 +10017,6 @@
 				76889DEF12D3CA40007AEF00 /* Personal.png in Resources */,
 				1154F50A12E1476900B8CA27 /* AILogByAccountWindow.nib in Resources */,
 				97AF5CF413191E9A00550C41 /* ContactListChangeUserPictureMenu.xib in Resources */,
-				9722ABC613257D5800CAB486 /* ContactListWindow.xib in Resources */,
 				9722ABC813257D7F00CAB486 /* ContactListWindow.xib in Resources */,
 				5ADFFE5D133846C300069C1B /* keys.png in Resources */,
 			);

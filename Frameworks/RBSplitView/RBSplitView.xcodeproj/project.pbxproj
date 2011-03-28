@@ -585,7 +585,6 @@
 				INFOPLIST_OUTPUT_FORMAT = binary;
 				PLIST_FILE_OUTPUT_FORMAT = binary;
 				PRODUCT_NAME = RBSplitView;
-				SDKROOT = macosx10.5;
 				SYMROOT = ../../build;
 			};
 			name = "Release-Debug";
@@ -768,7 +767,6 @@
 				GCC_VERSION = 4.2;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = RBSplitView;
-				SDKROOT = macosx10.5;
 				SYMROOT = ../../build;
 			};
 			name = Debug;
@@ -782,7 +780,6 @@
 				GCC_PREFIX_HEADER = Source/RBSplitView_Prefix.pch;
 				GCC_VERSION = 4.2;
 				PRODUCT_NAME = RBSplitView;
-				SDKROOT = macosx10.5;
 				SYMROOT = ../../build;
 			};
 			name = Release;
