@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>LogSecureChats</key>
-	<true/>
+	<false/>
 	<key>Enable Logging</key>
 	<true/>
 	<key>Log Viewer Timestamps</key>
